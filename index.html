@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Noise Reduction</title>
+  <link rel="stylesheet" href="public/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Video Noise Reduction</h1>
+      <label for="videoUrl">Video URL:</label>
+      <input type="text" id="videoUrl" required>
+      <button id="inputUrl">Submit</button>
+      
+    <br><br>
+    <div id="jobIdContainer">
+      <div id="jobId_"></div>
+      <label for="jobId">Job ID:</label>
+      <input type="text" id="jobIdInput" required>
+      <button id="jobIdInputSubmit">Check status</button>
+    </div>
+    <div id="jobStatus">
+      <div id="status"></div>
+      <a id="outputLink" href="" target="_blank" download></a>
+    </div>
+  </div>
+
+  <script src="public/scripts.js"></script>
+</body>
+
+</html>
